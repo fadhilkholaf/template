@@ -1,19 +1,19 @@
-# fadhilkholaf template
+# Template
 
-Next.js starter template
+Fadhilkholaf next.js starter template
 
 ## How to start
 
 ### Initialize Template
 
 ```bash
-pnpx create-next-app@latest --example https://github.com/fadhilkholaf/fadhilkholaf-template fadhilkholaf-template
+pnpx create-next-app@latest --example https://github.com/fadhilkholaf/template template
 ```
 
 ### Go To Project Directory
 
 ```bash
-cd fadhilkholaf-template
+cd template
 ```
 
 ### Install Dependency
