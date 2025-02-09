@@ -64,8 +64,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-pink-200 text-gray-800">
-      <body className={`${geistMono.className} antialiased`}>{children}</body>
+    <html lang="en" className="h-full bg-pink-200 text-gray-800">
+      <body className={`${geistMono.className} h-full antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
