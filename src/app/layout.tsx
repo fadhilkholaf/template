@@ -38,16 +38,12 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: baseUrl },
   openGraph: {
-    type: "website",
-    siteName: "fadhilkholaf",
-    countryName: "Indonesia",
-    locale: "en_US",
     url: baseUrl,
     images: [
       {
         url: imageUrl,
-        width: 512,
-        height: 512,
+        width: 1200,
+        height: 630,
       },
     ],
   },
