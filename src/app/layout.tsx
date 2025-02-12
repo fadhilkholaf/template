@@ -12,7 +12,7 @@ const imageUrl = `${baseUrl}/images/metadata/512x512.png`;
 
 export const metadata: Metadata = {
   metadataBase: new URL("/", baseUrl),
-  title: { default: "Template | fadhilkholaf", template: "%s | fadhilkholaf" },
+  title: { default: "Template | Fadhilkholaf", template: "%s | Fadhilkholaf" },
   description: "fadhilkholaf next.js starter template",
   authors: [
     {
@@ -38,6 +38,7 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: baseUrl },
   openGraph: {
+    siteName: "Fadhilkholaf Template",
     url: baseUrl,
     images: [
       {

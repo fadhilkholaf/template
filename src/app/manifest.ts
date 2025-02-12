@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 const manifest = (): MetadataRoute.Manifest => {
   return {
-    name: "fadhilkholaf template",
-    short_name: "fadhilkholaf template",
+    name: "Fadhilkholaf Template",
+    short_name: "Fadhilkholaf Template",
     icons: [
       {
         src: "/images/metadata/192x192.png",
