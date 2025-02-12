@@ -1,7 +1,11 @@
+import Link from "next/link";
+
 const NotFoundPage = () => {
   return (
     <main className="flex h-full w-full items-center justify-center">
-      [404] Not Found
+      <p>
+        [404] Not Found. <Link href="/">Back to home page</Link>.
+      </p>
     </main>
   );
 };

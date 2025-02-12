@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+a,
+button {
+  @apply underline;
+}
+
 ::selection {
   @apply bg-gray-800 text-pink-200;
 }

@@ -16,10 +16,11 @@ const ErrorPage = ({
   return (
     <main className="flex h-full w-full items-center justify-center">
       <p>
-        [500] Server Error
+        [500] Server Error{" "}
         <button type="button" onClick={() => reset()}>
           Try Again
         </button>
+        .
       </p>
     </main>
   );
