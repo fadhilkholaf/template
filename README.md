@@ -1,6 +1,6 @@
 # Template
 
-Fadhilkholaf next.js starter template
+Fadhilkholaf next.js fullstack app starter template
 
 ## How to start
 
@@ -22,6 +22,8 @@ cd template
 pnpm install
 ```
 
+### Setup .env file
+
 ### Run the server
 
 ```bash
@@ -33,4 +35,6 @@ pnpm dev
 - Next.js 15.1.7
 - React 19
 - Tailwind CSS 4
+- Prisma ORM
+- Auth.js
 - Optimized SEO

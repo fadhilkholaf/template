@@ -1,22 +1,33 @@
 @import "tailwindcss";
 
-a,
-button {
-  @apply underline;
+@theme {
+  --color-primary: oklch(0.899 0.061 343.231);
+  --color-secondary: oklch(0.278 0.033 256.848);
 }
 
-::selection {
-  @apply bg-gray-800 text-pink-200;
-}
+@layer base {
+  a,
+  button {
+    @apply underline;
+  }
 
-::-webkit-scrollbar {
-  @apply w-2 bg-pink-200;
-}
+  .layout {
+    @apply mx-auto size-full max-w-5xl px-4;
+  }
 
-::-webkit-scrollbar-track {
-  @apply bg-pink-200;
-}
+  ::selection {
+    @apply bg-gray-800 text-pink-200;
+  }
 
-::-webkit-scrollbar-thumb {
-  @apply bg-gray-800;
+  ::-webkit-scrollbar {
+    @apply w-2 bg-pink-200;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-pink-200;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-800;
+  }
 }

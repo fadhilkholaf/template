@@ -8,6 +8,18 @@ const sitemap = (): MetadataRoute.Sitemap => {
       changeFrequency: "daily",
       priority: 1,
     },
+    {
+      url: "https://template.fadhilkholaf.my.id/signin",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.5,
+    },
+    {
+      url: "https://template.fadhilkholaf.my.id/signout",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.5,
+    },
   ];
 };
 
