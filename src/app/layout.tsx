@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 
+import { Toaster } from "sonner";
+
 import "./globals.css";
 
 const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
@@ -62,7 +65,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-primary text-secondary size-full">
-      <body className={`${geistMono.className} size-full antialiased`}>
+      <body
+        className={`${geistMono.className} ${geistMono.variable} size-full antialiased`}
+      >
+        <Toaster
+          duration={2000}
+          position="bottom-center"
+          style={{ fontFamily: "var(--font-geist-mono)" }}
+        />
         {children}
       </body>
     </html>

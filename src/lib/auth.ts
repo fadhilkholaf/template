@@ -2,8 +2,8 @@ import NextAuth, { DefaultSession } from "next-auth";
 import { DefaultJWT } from "next-auth/jwt";
 import Credentials from "next-auth/providers/credentials";
 
-import { findUser } from "@/db/query/user";
-import { compareHash } from "@/util/utils";
+import { findUser } from "@/query/user";
+import { compareHash } from "@/utils/utils";
 
 declare module "next-auth" {
   interface Session {

@@ -1,4 +1,6 @@
-export const middleware = async () => {};
+import { auth } from "@/lib/auth";
+
+export default auth(async (req) => {});
 
 export const config = {
   matcher: [
