@@ -32,9 +32,9 @@ pnpm dev
 
 ## Features
 
-- Next.js 15.1.7
-- React 19
-- Tailwind CSS 4
+- Next.js
+- React
+- Tailwind CSS
 - Prisma ORM
 - Auth.js
 - Optimized SEO
